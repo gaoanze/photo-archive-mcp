@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+
+# 本地数据与产物（不进库）
+phone_import/
+archive_ready/
+thumbs/
+sheets/
+*.json
+!examples/*.json
+.scan_cache.json
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+desktop.ini

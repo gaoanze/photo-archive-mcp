@@ -1,0 +1,26 @@
+[
+  {
+    "name": "IMG_20260915_103012.jpg",
+    "date": "2026-09-15",
+    "album": "Camera",
+    "summary": "示例实验记录",
+    "tag": "现场实拍",
+    "flag": "paper"
+  },
+  {
+    "name": "IMG_20260915_103548.jpg",
+    "date": "2026-09-15",
+    "album": "Camera",
+    "summary": "示例实验记录",
+    "tag": "实验操作记录",
+    "flag": ""
+  },
+  {
+    "name": "Screenshot_20260915_110233.jpg",
+    "date": "2026-09-15",
+    "album": "Screenshots",
+    "summary": "示例实验记录",
+    "tag": "数据表格截图",
+    "flag": "archive"
+  }
+]

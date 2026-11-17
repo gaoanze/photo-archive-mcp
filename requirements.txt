@@ -1,0 +1,4 @@
+mcp>=2.0.0
+Pillow>=10.0.0
+# Windows 手机直连克隆可选；非 Windows 忽略
+pywin32>=306; sys_platform == "win32"

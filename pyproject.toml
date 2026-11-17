@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "photo-archive-mcp"
+version = "0.2.0"
+description = "把手机里的实验照片归档成可追溯科研知识库的 MCP 工具集（扫描 / 勾选网页 / 重命名归档 / 索引）"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "gaoanze" }]
+keywords = ["mcp", "model-context-protocol", "photo-archive", "exif", "phash", "research", "lab", "llm-agent"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+    "Topic :: System :: Filesystems",
+]
+dependencies = [
+    "mcp>=2.0.0",
+    "Pillow>=10.0.0",
+]
+
+[project.optional-dependencies]
+phone = ["pywin32>=306; sys_platform == 'win32'"]
+dev = ["pytest>=8.0"]
+
+[project.urls]
+Homepage = "https://github.com/gaoanze/photo-archive-mcp"
+Repository = "https://github.com/gaoanze/photo-archive-mcp"
+Issues = "https://github.com/gaoanze/photo-archive-mcp/issues"
+Changelog = "https://github.com/gaoanze/photo-archive-mcp/blob/main/CHANGELOG.md"
+
+[project.scripts]
+photo-archive-mcp = "photo_archive_mcp.server:main"
+
+[tool.setuptools.packages.find]
+include = ["photo_archive_mcp*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,25 @@
+{
+  "image_exts": [".jpg", ".jpeg", ".png", ".heic", ".heif", ".webp", ".gif", ".bmp"],
+  "skip_dir_marks": [".transforms", ".thumbnails", "thumbnails", ".gs", ".trashed", ".trashed-100", "videos", "Video"],
+  "thumb_max_side": 320,
+  "thumb_quality": 78,
+  "phash_size": 8,
+  "phash_distance": 6,
+  "convert_heic": true,
+  "tag_suggestions": ["现场实拍", "实验操作记录", "仪器读数", "谱图", "数据表格截图", "检测记录图", "微信传输图", "其他"],
+  "quality": {
+    "blur_threshold": 100.0,
+    "brightness_min": 30,
+    "brightness_max": 235
+  },
+  "compress": {
+    "max_side": 1600,
+    "quality": 82
+  },
+  "cache": {
+    "enabled": true
+  },
+  "concurrency": {
+    "workers": 4
+  }
+}

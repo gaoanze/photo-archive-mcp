@@ -1,0 +1,52 @@
+name: Bug 报告 / Bug report
+description: 报告一个可复现的问题
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！提交前请确认：不要在 issue 里贴真实实验照片、个人目录路径或隐私数据。
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 发生了什么
+      description: 简要描述问题现象，以及你期望的结果。
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: 复现步骤
+      description: 尽量给最小复现（命令、工具参数、样例数据格式）。
+      placeholder: |
+        1. python examples/cli_demo.py --source ./demo_photos --out ./out
+        2. 打开 out/挑选台.html
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 版本 / 提交
+      placeholder: "0.2.0 或 commit 短哈希"
+  - type: dropdown
+    id: os
+    attributes:
+      label: 操作系统
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - 其他
+  - type: input
+    id: python
+    attributes:
+      label: Python 版本
+      placeholder: "3.12"
+  - type: textarea
+    id: logs
+    attributes:
+      label: 报错信息
+      description: 贴 traceback 或控制台输出（可脱敏）。
+      render: shell

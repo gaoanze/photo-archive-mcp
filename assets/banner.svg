@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="photo-archive-mcp banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.55" stop-color="#12233d"/>
+      <stop offset="1" stop-color="#1d3a5f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4cc9f0"/>
+      <stop offset="1" stop-color="#7bf1a8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <g opacity="0.16" fill="none" stroke="#8ecae6" stroke-width="1">
+    <circle cx="1080" cy="60" r="120"/>
+    <circle cx="1170" cy="250" r="180"/>
+    <circle cx="980" cy="270" r="90"/>
+  </g>
+  <text x="72" y="108" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="20" fill="#8ecae6" letter-spacing="3">MCP SERVER · RESEARCH PHOTO WORKFLOW</text>
+  <text x="70" y="172" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="54" font-weight="700" fill="#f8fafc">photo-archive-mcp</text>
+  <text x="72" y="214" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="22" fill="#cbd5e1">把手机里的实验照片，归档成可追溯的科研知识库</text>
+  <rect x="72" y="244" width="176" height="4" rx="2" fill="url(#accent)"/>
+  <g font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif" font-size="18" fill="#e2e8f0">
+    <text x="72" y="292">scan</text>
+    <text x="176" y="292">pick</text>
+    <text x="268" y="292">rename</text>
+    <text x="396" y="292">archive</text>
+    <text x="508" y="292">index</text>
+  </g>
+  <g fill="#7bf1a8">
+    <text x="240" y="292" font-size="18" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif">→</text>
+    <text x="330" y="292" font-size="18" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif">→</text>
+    <text x="462" y="292" font-size="18" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif">→</text>
+    <text x="576" y="292" font-size="18" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif">→</text>
+  </g>
+</svg>
