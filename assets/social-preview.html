@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    width:1280px; height:630px; overflow:hidden;
+    font-family:"Segoe UI","Microsoft YaHei",-apple-system,Arial,sans-serif;
+    background:linear-gradient(135deg,#0b1524 0%,#12233d 52%,#1d3a5f 100%);
+    color:#f8fafc; position:relative;
+  }
+  .glow1 { position:absolute; width:520px; height:520px; border-radius:50%; background:rgba(76,201,240,.10); top:-220px; right:-120px; }
+  .glow2 { position:absolute; width:620px; height:620px; border-radius:50%; background:rgba(123,241,168,.07); bottom:-320px; left:-160px; }
+  .wrap { position:relative; display:flex; height:100%; padding:56px 60px; gap:44px; }
+  .left { flex:1.05; display:flex; flex-direction:column; justify-content:center; }
+  .eyebrow { font-size:15px; letter-spacing:4px; color:#8ecae6; font-weight:600; margin-bottom:16px; }
+  h1 { font-size:58px; font-weight:800; line-height:1.06; letter-spacing:-1px; }
+  h1 .acc { background:linear-gradient(90deg,#4cc9f0,#7bf1a8); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .tag { margin-top:20px; font-size:24px; color:#cbd5e1; line-height:1.5; }
+  .badges { margin-top:30px; display:flex; gap:10px; flex-wrap:wrap; }
+  .chip { font-size:15px; font-weight:700; padding:8px 14px; border-radius:8px; background:rgba(76,201,240,.12); color:#9fc2e6; border:1px solid rgba(111,154,199,.45); }
+  .chip.hl { background:linear-gradient(90deg,#4cc9f0,#7bf1a8); color:#06202c; border:none; }
+  .url { margin-top:34px; font-size:17px; color:#8fb3d9; letter-spacing:.4px; }
+  .right { flex:0.95; display:flex; align-items:center; justify-content:center; }
+  .shot { width:560px; border-radius:16px; overflow:hidden; box-shadow:0 30px 70px rgba(0,0,0,.55), 0 0 0 1px rgba(111,154,199,.35); transform:rotate(-2deg); background:#fff; }
+  .shot img { display:block; width:100%; }
+</style>
+</head>
+<body>
+  <div class="glow1"></div><div class="glow2"></div>
+  <div class="wrap">
+    <div class="left">
+      <div class="eyebrow">MCP SERVER · RESEARCH PHOTO WORKFLOW</div>
+      <h1>photo-archive-<span class="acc">mcp</span></h1>
+      <div class="tag">把手机里的实验照片，归档成可追溯的科研知识库</div>
+      <div class="badges">
+        <div class="chip hl">17 MCP tools</div>
+        <div class="chip">100% local</div>
+        <div class="chip">Win · macOS · Linux</div>
+        <div class="chip">MIT</div>
+      </div>
+      <div class="url">github.com/gaoanze/photo-archive-mcp</div>
+    </div>
+    <div class="right">
+      <div class="shot"><img src="demo-selection.png" alt="demo"></div>
+    </div>
+  </div>
+</body>
+</html>

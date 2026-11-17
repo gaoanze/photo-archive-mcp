@@ -7,9 +7,12 @@
 扫描 → 网页勾选 → 重命名归档 → 索引核对，全程本地跑；17 个 MCP 工具，直接接进 Claude、Cursor、Codex 等客户端。
 
 [![CI](https://github.com/gaoanze/photo-archive-mcp/actions/workflows/test.yml/badge.svg)](https://github.com/gaoanze/photo-archive-mcp/actions/workflows/test.yml)
-[![License: MIT](https://img.shields.io/badge/license-MIT-2ea043.svg)](LICENSE)
+[![MCP: 17 tools](assets/badges/mcp-17-tools.svg)](docs/USAGE.zh-CN.md)
+[![Runs 100% local](assets/badges/local-first.svg)](#隐私与安全)
+[![Platforms](assets/badges/platforms.svg)](#快速开始)
+[![For research photos](assets/badges/research.svg)](#为什么会有这个项目)
+[![License: MIT](assets/badges/license.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-3776AB.svg)](pyproject.toml)
-[![MCP](https://img.shields.io/badge/MCP-17%20tools-8957e5.svg)](docs/USAGE.zh-CN.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 [English](README.en.md) · [完整手册](docs/USAGE.zh-CN.md) · [反馈问题](https://github.com/gaoanze/photo-archive-mcp/issues)

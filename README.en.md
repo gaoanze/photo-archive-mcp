@@ -7,9 +7,12 @@
 Scan → pick in a local web page → rename & archive by date → index and verify. Runs fully offline, exposes 17 MCP tools for Claude, Cursor, Codex and other clients.
 
 [![CI](https://github.com/gaoanze/photo-archive-mcp/actions/workflows/test.yml/badge.svg)](https://github.com/gaoanze/photo-archive-mcp/actions/workflows/test.yml)
-[![License: MIT](https://img.shields.io/badge/license-MIT-2ea043.svg)](LICENSE)
+[![MCP: 17 tools](assets/badges/mcp-17-tools.svg)](docs/USAGE.zh-CN.md)
+[![Runs 100% local](assets/badges/local-first.svg)](#features)
+[![Platforms](assets/badges/platforms.svg)](#quick-start)
+[![For research photos](assets/badges/research.svg)](#why)
+[![License: MIT](assets/badges/license.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-3776AB.svg)](pyproject.toml)
-[![MCP](https://img.shields.io/badge/MCP-17%20tools-8957e5.svg)](docs/USAGE.zh-CN.md)
 
 [中文](README.md) · [Full manual (CN)](docs/USAGE.zh-CN.md) · [Issues](https://github.com/gaoanze/photo-archive-mcp/issues)
 

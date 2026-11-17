@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="photo-archive-mcp logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1524"/>
+      <stop offset="0.55" stop-color="#12233d"/>
+      <stop offset="1" stop-color="#1d3a5f"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4cc9f0"/>
+      <stop offset="1" stop-color="#7bf1a8"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#274b73"/>
+      <stop offset="1" stop-color="#12233d"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="404" cy="104" r="118" fill="#4cc9f0" opacity="0.10"/>
+  <circle cx="96" cy="430" r="150" fill="#7bf1a8" opacity="0.08"/>
+  <!-- 后一张照片 -->
+  <g transform="rotate(-8 256 220)">
+    <rect x="128" y="118" width="240" height="180" rx="18" fill="#1b3554" stroke="#3f6690" stroke-width="2"/>
+  </g>
+  <!-- 前一张照片 -->
+  <g>
+    <rect x="152" y="140" width="240" height="180" rx="18" fill="url(#sky)" stroke="#6f9ac7" stroke-width="2.5"/>
+    <path d="M168 290 L236 214 L286 264 L318 236 L376 290 Z" fill="#7bf1a8" opacity="0.85"/>
+    <circle cx="332" cy="184" r="17" fill="#4cc9f0"/>
+    <!-- 归档文件夹 -->
+    <g transform="translate(268 262)">
+      <path d="M0 24 L0 10 Q0 4 6 4 L38 4 L48 14 L120 14 Q126 14 126 20 L126 66 Q126 72 120 72 L6 72 Q0 72 0 66 Z"
+            fill="url(#acc)" stroke="#0b1524" stroke-width="3"/>
+      <path d="M14 40 L112 40" stroke="#0b1524" stroke-width="4" stroke-linecap="round" opacity="0.55"/>
+    </g>
+  </g>
+</svg>

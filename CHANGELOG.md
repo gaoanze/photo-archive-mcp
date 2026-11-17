@@ -4,6 +4,11 @@
 
 ## [Unreleased]
 
+### Added
+
+- 自制 README 徽章（MCP 17 tools / 100% local / platforms / research photos / MIT），SVG 放在 `assets/badges/`。
+- 项目 Logo（`assets/logo.svg`、`assets/logo-512.png`）与 1280×630 社交预览图（`assets/social-preview.png`，含 HTML 模板）。
+
 ## [0.2.0] - 2026-11-17
 
 ### Added
